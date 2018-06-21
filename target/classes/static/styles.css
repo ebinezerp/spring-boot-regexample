@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+	width:100%;
+	text-decoration:none;
+}
+
+body{
+	min-height: 100%;
+}
+
+nav#mainnav{
+	display:flex;
+	color:white;
+}
+
+nav#mainnav h1{
+	flex:1;
+}
+
+nav#mainnav h1 a,nav#mainnav ul li a{
+	color:white;
+}
+
+nav#mainnav h1 a:hover{
+text-decoration: none;
+}
+
+
+nav#mainnav ul{
+	flex:2;
+	display:flex;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+nav#mainnav ul li
+{
+	flex-basis: 15%;
+}
+
+
+#signupform,#loginform
+{
+	margin-top:10%;
+}
